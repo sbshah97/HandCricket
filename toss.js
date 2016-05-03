@@ -1,3 +1,5 @@
+console.log("Hello, my name is Salman Shah the creator of this online version of the game hand cricket");
+
 var userChoice1 = prompt ("Do you choose Odd OR Even?");
 
 var userChoice = prompt("Choose  Your Number");
@@ -67,4 +69,8 @@ else
 
 console.log("You have to" + userTosschoice + "first");
 
-
+if usertossChoice == "bat"
+	var c = 1;
+	
+else 
+	var c = 0;
