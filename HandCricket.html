@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+	<body onload="alert("Hello, my name is Salman Shah" + "\n" + "The creator of this online version of the game hand cricket");">
+		<script>
+		//Toss
+
+var userChoice1 = prompt("Do you choose Odd OR Even?");
+
+var computerChoice = Math.floor(Math.random()*6 + 1);
+
+var userChoice = prompt("Choose Your Number");
+
+alert("Computer has chosen " + computerChoice);
+
+var tossChoice = userChoice + computerChoice;
+
+if (tossChoice % 2 == 0 && userChoice1 == "Even") {
+    var usertossChoice = prompt("You have won the toss" + "\n" + "Do you want to Bat or Bowl?");  
+    }
+
+else if (tossChoice % 2 == 1 && userChoice1 == "Odd") {
+    var usertossChoice = prompt("You have won the toss" + "\n" + "Do you want to Bat or Bowl?");  
+    }
+
+else {
+    
+    var tossChoice1 = Math.random();
+    
+    if(tossChoice1 <= 0.50) {
+    var usertossChoice = "Bat";
+    
+        }
+        
+    else {
+        var usertossChoice = "Bowl";
+        }
+    
+    }
+
+alert("You have to" + userTosschoice + "first");
+
+if (usertossChoice == "Bat")
+	var c = 1;
+	
+else 
+	var c = 0;
+
+//First Innings
+
+alert("Welcome to the first innings of the cricket game Hand Cricket");
+
+//User Batting first
+while(c) {
+    for (var i= 0; userChoiceI1 == computerChoiceI1; ) {
+        var userScoreI1 = 0;
+
+        var userChoiceI1 = prompt ("What number would you like to choose?");
+        var computerChoiceI1 = Math.floor(((Math.random)*6) + 1);
+
+        if (userChoiceI1 == computerChoiceI1) {
+            alert("The User has been declared out");
+        }  
+
+    else {
+        userScoreI1 += userChoiceI1;
+        }
+    }
+}
+
+//Computer Batting First
+while(!c) {
+    for (var j = 0; computerChoiceI1 == userChoiceI1; ) {
+        var computerScoreI1 = 0;
+
+        var userChoiceI1 = prompt ("What number would you like to choose?");
+        var computerChoiceI1 = Math.floor(((Math.random)*6) + 1);
+
+        if (userChoiceI1 == computerChoiceI1) {
+            alert("The Computer has been declared out");
+        }  
+
+        else {
+            computerScoreI1 += computerChoiceI1;
+        }
+    }
+}
+
+//Second innings
+
+console.log("Welcome to the second innings of the cricket game Hand Cricket");
+
+//User Batting second
+while(!c) {
+    for (var i= 0; userChoiceI2 == computerChoiceI2; ) {
+        var userScore = 0;
+
+        var userChoiceI2 = prompt ("What number would you like to choose?");
+        var computerChoiceI2 = Math.floor(((Math.random)*6) + 1);
+
+        if (userChoiceI2 == computerChoiceI2) {
+            alert("The User has been declared out");
+        }  
+
+        else {
+            userScore += userChoiceI2;
+
+            if(userScoreI2 > computerScoreI1) {
+                alert("The User has won the match");
+            }
+        }
+    }
+
+    if (userScoreI2 < computerScoreI1) {
+        alert("The User has lost the match");
+    }
+}
+
+//Computer Batting Second
+while(c) {
+    for (var j = 0; computerChoiceI2 == userChoiceI2; ) {
+        var computerScoreI2 = 0;
+
+        var userChoiceI2 = prompt ("What number would you like to choose?");
+        var computerChoiceI2 = Math.floor(((Math.random)*6) + 1);
+
+        if (userChoiceI2 == computerChoiceI2) {
+            alert("The Computer has been declared out");
+        }  
+
+        else {
+            computerScoreI2 += computerChoiceI2;
+            if(computerScoreI2 > userScoreI1) {
+                alert("The user has lost the match");
+            }
+        }
+    }
+
+    if (userScoreI1 > computerScoreI2) {
+        alert("The user has won the match");
+    }
+}
+
+		</script>
+	</body>
+</html>
