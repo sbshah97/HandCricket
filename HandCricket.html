@@ -1,17 +1,25 @@
 <!doctype html>
 <html>
-<head> <title>HandCricket</title> </head>
+<head> 
+	<title>HandCricket</title>
+	<meta charset="utf-8"></meta>
+	<meta name="author" content="Salman Shah"></meta>
+	<link rel="stylesheet" type="text/css" href="src/stylesheet.css">
+</head>
 <body>
 
-<span id="OddEven" style="display:none;">
-	Choose:<br/>
-	<button type="button" onclick="set_OE(0)">Odd</button>
-	<button type="button" onclick="set_OE(1)">Even</button>
-</span>
+<div class = "toss"> 
+	<span id="OddEven" style="display:none;">
+		Welcome to the game of Hand-Cricket on this screen <br /> <br/>
+		Choose:<br/>
+		<button type="button" onclick="set_OE(0)">Odd</button> or
+		<button type="button" onclick="set_OE(1)">Even</button>
+	</span>
+</div>
 
 <span id="score_board" style="display:none;">
 	User : <span id="user_score">0</span><br/>
-	Cpu  : <span id="cpu_score">0</span>
+	CPU  : <span id="cpu_score">0</span>
 </span>
 
 <span id="choice_board" style="display:none;">
@@ -21,15 +29,17 @@
 	<br/><br/>
 </span>
 
-<span id="inp" style="display:none;">
-	Choose:<br/>
-	<button type="button" onclick="set_inp(1)">1</button>
-	<button type="button" onclick="set_inp(2)">2</button>
-	<button type="button" onclick="set_inp(3)">3</button><br/>
-	<button type="button" onclick="set_inp(4)">4</button>
-	<button type="button" onclick="set_inp(5)">5</button>
-	<button type="button" onclick="set_inp(6)">6</button>
-</span>
+<div class = "selector">
+	<span id="inp" style="display:none;">
+		Choose one of the following:<br/>
+		<button type="button" onclick="set_inp(1)">1</button>
+		<button type="button" onclick="set_inp(2)">2</button>
+		<button type="button" onclick="set_inp(3)">3</button><br/>
+		<button type="button" onclick="set_inp(4)">4</button>
+		<button type="button" onclick="set_inp(5)">5</button>
+		<button type="button" onclick="set_inp(6)">6</button>
+	</span>
+</div>
 
 <span id="ask_user_bat" style="display:none;">
 	You won the toss. Do you want to Bat or Bowl first?<br/>

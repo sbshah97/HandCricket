@@ -21,7 +21,7 @@ function get_OE(){
 
 function set_inp(i){
 	inp = i;
-	console.log("User chose "+i);
+	console.log("User chose " + i);
 	S("inp").style.display="none";
 	window[callback](i);
 	//eval(callback+"(i)");
@@ -82,8 +82,8 @@ function addUserScore(i){
 	S("user_choice").innerHTML = i;
 	S("cpu_choice").innerHTML = cpu_inp;
 	if(cpu_inp == i){
-		console.log("User has declared out");
-		alert("You are out!");
+		console.log("User has been declared out");
+		alert("You have been dismissed for " + userScore +" runs");
 		if(userBats==1){
 			cpuBat();
 		}else{
@@ -113,18 +113,18 @@ function addCpuScore(i){
 	S("user_choice").innerHTML = i;
 	S("cpu_choice").innerHTML = cpu_inp;
 	if(cpu_inp == i){
-		console.log("Cpu has declared out");
-		alert("Cpu is out!")
+		console.log("Cpu has been dismissed for " + cpuScore + " runs");
+		alert("CPU has been dismissed for " + cpuScore + " runs")
 		if(userBats==0){
 			userBat();
 		}else{
 			//match over
 			if(userScore>=cpuScore){
 				console.log("User won the match");
-				alert("You won!!!");
+				alert("You won the match by " + " runs");
 			}else{
 				console.log("User lost the match");
-				alert("You lost!!!");
+				alert("You lost the match by" + parseInt(cpuScore - userScore) + " runs");
 			}
 		}
 	}else{

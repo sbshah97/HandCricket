@@ -1,0 +1,14 @@
+body {
+	background-image: url("src/imgs/img1.jpg");
+	
+}
+
+.toss {
+	text-align: center;
+}
+
+.selector {
+	text-align: center;
+	border-style: groove;
+
+}
