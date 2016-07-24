@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head> <title>HandCricket</title> </head>
+<body>
+
+<span id="OddEven" style="display:none;">
+	Choose:<br/>
+	<button type="button" onclick="set_OE(0)">Odd</button>
+	<button type="button" onclick="set_OE(1)">Even</button>
+</span>
+
+<span id="score_board" style="display:none;">
+	User : <span id="user_score">0</span><br/>
+	Cpu  : <span id="cpu_score">0</span>
+</span>
+
+<span id="choice_board" style="display:none;">
+	<br/>
+	User's Choice : <span id="user_choice">-</span><br/>
+	CPU's  Choice : <span id="cpu_choice">-</span>
+	<br/><br/>
+</span>
+
+<span id="inp" style="display:none;">
+	Choose:<br/>
+	<button type="button" onclick="set_inp(1)">1</button>
+	<button type="button" onclick="set_inp(2)">2</button>
+	<button type="button" onclick="set_inp(3)">3</button><br/>
+	<button type="button" onclick="set_inp(4)">4</button>
+	<button type="button" onclick="set_inp(5)">5</button>
+	<button type="button" onclick="set_inp(6)">6</button>
+</span>
+
+<span id="ask_user_bat" style="display:none;">
+	You won the toss. Do you want to Bat or Bowl first?<br/>
+	<button type="button" onclick="set_userBats(1)">Bat</button>
+	<button type="button" onclick="set_userBats(0)">Bowl</button>
+</span>
+
+<script type="text/javascript" src="src/HandCricket.js"></script>
+
+</body>
+</html>
