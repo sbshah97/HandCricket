@@ -8,7 +8,7 @@
 - After forking, enter the following commands in your terminal.
 
 ```
-$ git clone https://github.com/salman-bhai/HandCricket/edit/master/README.md
+$ git clone https://github.com/salman-bhai/HandCricket
 $ cd HandCricket
 ```
 
