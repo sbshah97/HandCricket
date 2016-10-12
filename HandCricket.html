@@ -12,8 +12,8 @@
 	<span id="OddEven" style="display:none;">
 		Welcome to the game of Hand-Cricket on this screen <br /> <br/>
 		Choose:<br/>
-		<button type="button" onclick="set_OE(0)">Odd</button> or
-		<button type="button" onclick="set_OE(1)">Even</button>
+		<button type="button" onclick="set_OE(0)" class = "but">Odd</button> or
+		<button type="button" onclick="set_OE(1)" class = "but">Even</button>
 	</span>
 </div>
 
@@ -32,19 +32,21 @@
 <div class = "selector">
 	<span id="inp" style="display:none;">
 		Choose one of the following:<br/>
-		<button type="button" onclick="set_inp(1)">1</button>
-		<button type="button" onclick="set_inp(2)">2</button>
-		<button type="button" onclick="set_inp(3)">3</button><br/>
-		<button type="button" onclick="set_inp(4)">4</button>
-		<button type="button" onclick="set_inp(5)">5</button>
-		<button type="button" onclick="set_inp(6)">6</button>
+		
+		<button type="button" onclick="set_inp(1)" class = "but1">1</button>
+		<button type="button" onclick="set_inp(2)" class = "but1">2</button>
+		<button type="button" onclick="set_inp(3)" class = "but1">3</button><br/>
+		<button type="button" onclick="set_inp(4)" class = "but1">4</button>
+		<button type="button" onclick="set_inp(5)" class = "but1">5</button>
+		<button type="button" onclick="set_inp(6)" class = "but1">6</button>
+		
 	</span>
 </div>
 
 <span id="ask_user_bat" style="display:none;">
 	You won the toss. Do you want to Bat or Bowl first?<br/>
-	<button type="button" onclick="set_userBats(1)">Bat</button>
-	<button type="button" onclick="set_userBats(0)">Bowl</button>
+	<button type="button" onclick="set_userBats(1)" class = "but2">Bat</button>
+	<button type="button" onclick="set_userBats(0)" class = "but2">Bowl</button>
 </span>
 
 <script type="text/javascript" src="src/HandCricket.js"></script>
