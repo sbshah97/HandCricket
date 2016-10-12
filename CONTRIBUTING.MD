@@ -61,9 +61,9 @@ Any other information you want to share that is relevant to the issue being repo
     * Class methods and properties (methods starting with a @)
     * Instance methods and properties
 * Avoid platform-dependent code:
-    * Use 'require('fs-plus').getHomeDirectory()' to get the home directory.
-    * Use 'path.join()' to concatenate filenames.
-    * Use 'os.tmpdir()' rather than '/tmp' when you need to reference the temporary directory.
+    * Use `require('fs-plus').getHomeDirectory()` to get the home directory.
+    * Use `path.join()` to concatenate filenames.
+    * Use `os.tmpdir()` rather than '/tmp' when you need to reference the temporary directory.
 
 
 ##<a name='info'></a>More information
@@ -71,3 +71,4 @@ You can find out more detailed information about contributing in the [HandCricke
 
 
 [readme]: https://github.com/salman-bhai/HandCricket/blob/master/README.md
+[github]: https://github.com/salman-bhai/HandCricket
