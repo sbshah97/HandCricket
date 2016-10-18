@@ -139,5 +139,3 @@ function addCpuScore(i){
 			get_inp("addCpuScore");
 	}
 }
-
-get_OE();
