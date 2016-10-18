@@ -119,10 +119,11 @@ function addCpuScore(i){
 			userBat();
 		}else{
 			//match over
-			if(userScore>=cpuScore){
+			if(userScore >= cpuScore){
 				console.log("User won the match");
-				alert("You won the match by " + " runs");
-			}else{
+				alert("You won the match by " + parseInt(userScore - cpuScore) + " runs");
+			}
+			else{
 				console.log("User lost the match");
 				alert("You lost the match by" + parseInt(cpuScore - userScore) + " runs");
 			}
