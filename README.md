@@ -14,10 +14,7 @@ $ git clone https://github.com/salman-bhai/HandCricket
 $ cd HandCricket
 ```
 
-- After that click on the HTML file and it will open on the default browser page! Enjoy the game. Kindly check out the [rules](RULES.md) to see how the game works.
-
-## Usage
-* This is primarily built as a recreational tool for students.
+- After that click on the HTML file and it will open on the default browser page! Enjoy the game. Kindly check out the rules in the Wiki to see how the game works.
 
 ## Contributing
 - The repository is open to contribution from all interested developers. Kindly send us Pull Requests with explanation as to what changes you have done.
@@ -31,5 +28,5 @@ $ cd HandCricket
 
 ## Versions Of the Application
 
-**v0.1** 
+**v1.0** 
 - A single game of HandCricket will be played with one innings and one wicket per team.
