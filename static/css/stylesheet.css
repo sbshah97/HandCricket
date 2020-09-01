@@ -1,24 +1,40 @@
-@import 'https://fonts.googleapis.com/css?family=Ruslan+Display';
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans+JP';
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ }
 
 body {
- 
-	font-family: "Times New Roman", Times, serif;
+    font-family: "Noto Sans JP", sans-serif; 
+/*	font-family: "Times New Roman", Times, serif; */
+height: 100vh;
+	background: url('../imgs/background.jpg'), radial-gradient(#444, #111);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
 }
+
 
 .toss {
 	text-align: center;
+	}
+
+.headlines {
+	display: flex;
+	font-size: 48px;
 }
-
-.selector {
-	text-align: center;
-	border-style: groove;
-	font-size:100px;
-	
-}
-#choice_board{
-
-
+.headlines > * {
+	padding: 20px;
 }
 #OddEven{
 	background-image: url('imgs/cricket-sports-concept-toss-illustration-coin-projection-stylish-text-game-50406653.jpg');
@@ -28,9 +44,19 @@ body {
 }
 .but{
 	width:200px;
-	height:100px;
+	height:80px;
 	font-size:30px;
+	outline: 0;
+	border: 0;
+	border-radius: 4px;
+}
+.but-yellow {
 	color:blue;
+	background-color: yellow;
+}
+.but-blue {
+	color: white;
+	background-color: blue;
 }
 .but1{
 	width:200px;
@@ -40,6 +66,13 @@ body {
 #ask_user_bat{
 	font-size:100px;
 	text-align:center;
+}
+#inp {
+  padding: 20px;	
+text-align: center;
+	border-style: groove;
+	font-size:100px;
+
 }
 .but2{
 	width:100px;
